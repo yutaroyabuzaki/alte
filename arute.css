@@ -67,17 +67,14 @@
     }
     /* 店舗情報・地図 / SNS */
     #location .wrapper {
-    display: flex;
-    justify-content: space-between;
+        flex-direction: column;
     }
-    .location-info,
-    .location-map {
+    .location-info {
         width: 100%;
-    }
-    .sns-box {
-        margin-bottom: 30px;
-    }
-
+      }
+      .location-map {
+          width: 100%;
+      }
 }
 
 
