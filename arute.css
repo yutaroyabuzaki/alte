@@ -71,8 +71,7 @@
         flex-direction: column;
     }
     .location-info,
-    .location-map,
-    .sns-box {
+    .location-map {
         width: 100%;
     }
     .sns-box {
