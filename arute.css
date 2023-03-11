@@ -65,6 +65,12 @@
     .post-cat {
         margin-left: 80px;
     }
+    .location-info{
+       width: 100%;
+    }
+    .location-map {
+        width: 100%;
+    }
 }
 
 
