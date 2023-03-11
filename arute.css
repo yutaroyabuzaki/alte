@@ -65,14 +65,18 @@
     .post-cat {
         margin-left: 80px;
     }
-    #location .wrapper {
-        margin-bottom: 50px;
+    /* 店舗情報・地図 / SNS */
+    #location .wrapper,
+    #sns .wrapper {
+        flex-direction: column;
     }
-    .location-info{
-       width: 100%;
-    }
-    .location-map {
+    .location-info,
+    .location-map,
+    .sns-box {
         width: 100%;
+    }
+    .sns-box {
+        margin-bottom: 30px;
     }
 }
 
