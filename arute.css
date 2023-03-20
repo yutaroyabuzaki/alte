@@ -72,6 +72,7 @@
 }
 
 
+
 /* 共通部分
 ------------------------------- */
 html {
@@ -193,7 +194,7 @@ img {
 /* フッター
 ------------------------------- */
 footer {
-    background: #432;
+    background: #000;
     text-align: center;
     width:100%;
     padding: 26px 0;
@@ -376,6 +377,19 @@ h3 {
   border-top: 3px solid #000;
   border-bottom: 3px solid #000;
 }
+
+h4 {
+  padding: 1rem 2rem;
+  border-top: 6px double #000;
+  border-bottom: 6px double #000;
+}
+
+h5 {
+  padding: 1rem 2rem;
+  border-left: 4px solid #000;
+}
+
+
 
 
 nav{
