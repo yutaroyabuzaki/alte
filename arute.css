@@ -126,7 +126,6 @@ img {
 }
 
 
-
 /* HOME
 ------------------------------- */
 .home-content {
@@ -367,6 +366,23 @@ input[type="submit"] {
   text-align: center;
 }
 
+.sponsor-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px;
+}
+
+.sponsor-container3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
 /*フォント*/
 .font1{
   font-family: "ＭＳ Ｐ明朝"
@@ -423,3 +439,57 @@ border-bottom:2px solid #F7CB4D;
 iframe {
     width: 100%;
 }
+
+
+/* 通常のスタイル */
+body {
+  font-family: 'Philosopher', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  /* ナビゲーションのスタイル */
+  background-color: #333;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#home {
+  /* ホームセクションのスタイル */
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+}
+
+/* 他のセクションにも同様にスタイルを追加 */
+
+/* レスポンシブデザインのスタイル */
+@media only screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav a {
+    margin-top: 10px;
+  }
+
+  #home {
+    padding: 20px;
+  }
+
+  /* 他のレスポンシブスタイルもここに追加 */
+}
+
+/* ここに他のスタイルを追加 */
